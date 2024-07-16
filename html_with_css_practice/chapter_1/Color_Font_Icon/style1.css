@@ -1,21 +1,30 @@
-/*  This element selector sets the color of every heading1  */  
-h1{
-    color: rgba(26, 40, 167, 0.897);
-    font-family: "Patrick Hand SC", cursive;
-    font-weight: 400;
-    font-style: normal;
-
+/*  This element selector sets the color of every heading1  */
+h1 {
+  color: rgba(108, 199, 224, 0.897);
 }
 /* This  element selector sets the color of the content in every  paragraph tag */
-p{
-    color: chocolate;
+p {
+  color: chocolate;
 }
- /* This sets the background color of whole page */
-body{
-    background-color: rgba(239, 159, 239, 0.909);
+/* This sets the background color of whole page */
+body {
+  background-color: rgba(25, 3, 152, 0.909);
 }
-#heading3{
-    color: rgb(255, 255, 255);
+/* style tag for "id" */
+#heading3 {
+  color: rgb(255, 255, 255);
 }
- 
-  
+/* Universal selector  */
+* {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* styling for class  */
+.class {
+  color: rgb(0, 255, 110);
+}
+/* color from color pallete */
+h5 {
+  color: #d6bd98;
+}
