@@ -1,6 +1,8 @@
 /*  This element selector sets the color of every heading1  */
 h1 {
-  color: rgba(108, 199, 224, 0.897);
+  color: white;
+ 
+  background-color: rgba(108, 199, 224, 0.897);;
 }
 /* This  element selector sets the color of the content in every  paragraph tag */
 p {
@@ -28,3 +30,11 @@ body {
 h5 {
   color: #d6bd98;
 }
+/* color a button  */
+button{
+  background-color: #d6bd98;
+}
+/* align tag */
+ .para{
+  text-align: right ;
+ }
