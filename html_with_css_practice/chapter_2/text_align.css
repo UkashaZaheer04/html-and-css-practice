@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  width: 50%;
+  font-weight: bolder;
+}
+h2 {
+  text-align: end;
+  font-weight: 400;
+}
+h3 {
+  text-align: center;
+  font-weight: 800;
+}
+p {
+  text-align:  right ;
+  font-weight: bold;
+}
