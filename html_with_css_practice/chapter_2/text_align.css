@@ -6,12 +6,26 @@ h1 {
 h2 {
   text-align: end;
   font-weight: 400;
+  /*cutted line  */
+  text-decoration: line-through white;
 }
 h3 {
   text-align: center;
   font-weight: 800;
+  text-decoration: overline chocolate;
 }
 p {
-  text-align:  right ;
+  text-align: right;
   font-weight: bold;
+  text-decoration: underline cornflowerblue;
+}
+.one {
+  text-decoration: wavy underline purple;
+}
+.two {
+  text-decoration: dotted underline;
+}
+/* remove line under ancher tag  */
+a{
+    text-decoration: none;
 }
