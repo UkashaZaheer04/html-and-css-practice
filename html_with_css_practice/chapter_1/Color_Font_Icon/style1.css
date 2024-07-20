@@ -38,3 +38,8 @@ button{
  .para{
   text-align: right ;
  }
+ .two{
+  color: darkgoldenrod;
+  /* font from fontstack directly  */
+    font-family:Papyrus ;
+ }
