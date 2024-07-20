@@ -1,0 +1,20 @@
+/* decendant selector */
+/* div is the parent selector */
+div  {
+    color: aqua;
+}
+span  a {
+    color: red;
+} 
+span {
+    color: blueviolet;
+}
+ p a {
+    color: chocolate;
+}
+h1 p{
+    color: rgb(80, 255, 109);
+}
+div ul {
+    color: brown;
+}
