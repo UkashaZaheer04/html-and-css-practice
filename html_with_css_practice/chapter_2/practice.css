@@ -1,0 +1,14 @@
+/* practice 1 */
+h1 {
+  font-family: "League Script", cursive;
+  font-size: 50px;
+  font-weight: 600;
+  text-decoration: double underline #f2f7a1;
+  letter-spacing: 50px;
+  line-height: 1.5x;
+  /* transform letter into uppercas  */
+  text-transform: capitalize;
+  color: aqua;
+}
+
+
