@@ -1,26 +1,33 @@
 h1 {
   text-align: center;
-  width: 50%;
+  /* "font weight adjust the size of text */
   font-weight: bolder;
 }
 h2 {
   text-align: end;
   font-weight: 400;
-  /*cutted line */
+  /*line cut text  */
   text-decoration: line-through white;
 }
 h3 {
   text-align: center;
   font-weight: 800;
+  /* make a line above  the text */
   text-decoration: overline chocolate;
 }
 p {
+  /* align text to right of page */
   text-align: right;
+  /* maek text bolder */
   font-weight: bold;
+  /* make a line under the text  */
   text-decoration: underline cornflowerblue;
+  /* space between the lines  */
+  line-height: 2.5;
 }
 .one {
   text-decoration: wavy underline purple;
+  line-height: 1;
 }
 .two {
   text-decoration: dotted underline;
