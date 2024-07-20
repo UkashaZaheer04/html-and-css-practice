@@ -38,7 +38,7 @@ p {
   line-height: 1;
 }
 .two {
-  text-decoration: dotted underline;
+  text-decoration:  dashed underline;
   
   letter-spacing: 4px;
 }
