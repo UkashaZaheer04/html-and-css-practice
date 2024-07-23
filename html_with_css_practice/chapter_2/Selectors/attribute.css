@@ -1,0 +1,13 @@
+/* for separate input item  */
+input[type="text"]{
+ color: aqua;
+ border-color: aqua;
+}
+ input[type="password"]{
+    color :blueviolet;
+    border-color: blueviolet;
+ }
+ /* for common property of all input tag  */
+ input[type]{
+    background-color: azure;
+ }
