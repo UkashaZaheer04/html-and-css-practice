@@ -1,0 +1,10 @@
+/* sibling combiator */
+p+h3{
+    color: blueviolet;
+}
+p+p{
+    color: red;
+}
+.class{
+    color: green;
+}
