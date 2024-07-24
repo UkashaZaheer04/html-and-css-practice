@@ -1,13 +1,26 @@
 /* for separate input item  */
 input[type="text"]{
- color: aqua;
+ color: rgb(0, 42, 255);
  border-color: aqua;
 }
  input[type="password"]{
-    color :blueviolet;
-    border-color: blueviolet;
+    color :rgb(43, 43, 226);
+    border-color: rgb(43, 226, 223);
  }
  /* for common property of all input tag  */
  input[type]{
-    background-color: azure;
+    background-color: rgb(247, 240, 255);
  }
+ /* hover property */
+ input[type]:hover{
+   border-color: blue;
+ }
+ p:hover{
+   color: rgb(0, 42, 255);
+ }
+h1:hover{
+   color: blue;
+}
+input[type="radio"]:hover+label{
+   color: rgb(255, 0, 0);
+}
