@@ -39,16 +39,16 @@ p:active{
  input[type="submit"]:hover{
    background-color: rgb(0, 136, 255) 
 }
-input[type="checkbox"]:hover + label {
-   color: crimson;
-}
-
-input[type="checkbox"]:active + label {
-   color: rgb(101, 5, 29);
+.special-checkbox + label {
+   color: blue;
    font-weight: bold;
 }
 
-input[type="checkbox"]:checked + label {
-   color: crimson;
+.special-checkbox:hover + label {
+   color: green;
+}
+
+.special-checkbox:checked + label {
+   color: red;
 }
 
