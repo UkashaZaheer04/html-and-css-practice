@@ -24,3 +24,12 @@ h1:hover{
 input[type="radio"]:hover+label{
    color: rgb(255, 0, 0);
 }
+/* active property */
+input[type="radio"]:active+label{
+   color: rgb(10, 5, 101);
+   font-weight: bold;
+}
+p:active{
+   font-weight: bold;
+}
+ 
