@@ -1,0 +1,13 @@
+*{
+     font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: rgba(10, 95, 191, 0.909);
+}
+.button{
+    background-color: aqua;
+}
+#button{
+    background-color: black;
+    color:white;
+}
