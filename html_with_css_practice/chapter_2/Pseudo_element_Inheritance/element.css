@@ -1,0 +1,19 @@
+#id{
+    color: chocolate;
+}
+ /* chsnging first line  */
+p::first-line{
+    color: blueviolet;
+}
+/* make the selected area colores */
+p::selection{
+    color: darkkhaki;
+
+}
+#id:hover{
+    color: green;
+}
+/* changing first letter  */
+#id::first-letter{
+    color: rgb(255, 225, 127);
+}
