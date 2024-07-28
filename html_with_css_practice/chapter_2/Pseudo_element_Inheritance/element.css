@@ -17,3 +17,6 @@ p::selection{
 #id::first-letter{
     color: rgb(255, 225, 127);
 }
+h1::selection{
+    color: rgb(8, 58, 58);
+}
