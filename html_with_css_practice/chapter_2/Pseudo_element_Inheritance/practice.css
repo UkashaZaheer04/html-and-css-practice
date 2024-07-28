@@ -1,13 +1,30 @@
-*{
-     font-family: 'Courier New', Courier, monospace;
+ #main{
+     font-family:   Georgia, Times, 'Times New Roman', serif;
+ }
+ *{
+    text-align: center;
+ }
+h1 {
+    color: blue;
 }
-h1{
-    color: rgba(10, 95, 191, 0.909);
+.pclass{
+   color: white;
+   background-color: cornflowerblue;
 }
-.button{
-    background-color: aqua;
+div button{
+    background-color:purple ;
+    color: azure;
 }
-#button{
-    background-color: black;
-    color:white;
-}
+ button:hover{
+    background-color: yellow;
+    color: blue;
+ }
+ p:nth-of-type(odd){
+    color: yellow;
+ } 
+ h1::first-letter{
+    color: red;
+ }
+ #yes:checked+label{
+    color: rgb(41, 255, 41);
+ }
