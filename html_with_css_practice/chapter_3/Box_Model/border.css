@@ -12,5 +12,22 @@
     border-left:5px solid  yellow ;
     border-right:5px solid  yellow ;
 }
- 
- 
+ p{
+    text-align: center;
+    border-radius: 20px;
+    border:5px solid aqua;
+     
+ }
+ /* circle  */
+ div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid violet;
+
+ }
+ #box{
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+    border: 2px dashed blue ;
+ }
