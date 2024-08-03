@@ -1,0 +1,15 @@
+div{
+    border: 2px solid purple;
+    border-radius: 300px;
+    padding: 50px;
+
+} 
+button{
+    border: 2px solid  saddlebrown;
+     padding :25px;
+    border-radius: 25px;
+}
+.b{
+    padding: 0px 25px;
+    border-radius: 0px;
+}
