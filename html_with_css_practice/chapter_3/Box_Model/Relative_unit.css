@@ -1,0 +1,18 @@
+#outer {
+  background-color: coral;
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  font-size: 10px;
+}
+#inner {
+  background-color: lightpink;
+  height: 50px;
+  width: 50px;
+  margin-left: 50%;
+  font-size: 2em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
