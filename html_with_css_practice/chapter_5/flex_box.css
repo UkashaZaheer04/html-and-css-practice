@@ -1,20 +1,19 @@
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
-#container{
-width: 100%;
-height: 300px;
-border: 2px solid black;
-background-color: rgb(199, 197, 197);
- display: flex;
- margin: 10px auto;
- flex-direction:row;
- justify-content: space-between;
- justify-content: space-evenly;
+#container {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: rgb(199, 197, 197);
+  margin: 10px auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
-#container div{
-    height: 100px;
-    width: 150px;
-    color: white;
-    text-align: center;
+#container div {
+  height: 100px;
+  width: 100px;
+  color: white;
+  text-align: center;
 }
