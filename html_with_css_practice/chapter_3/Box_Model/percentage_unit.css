@@ -1,0 +1,14 @@
+#outer{
+    background-color: coral;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+
+}
+#inner{
+    background-color:lightpink;
+height: 30px;
+width: 30px;
+margin-left: 50%;
+ 
+}
