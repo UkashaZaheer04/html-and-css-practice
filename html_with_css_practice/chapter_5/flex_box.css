@@ -9,7 +9,7 @@ h2 {
   margin: 10px auto;
    display: flex;
     flex-direction:column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
    align-content : start;
 }
 #container div {
@@ -20,4 +20,8 @@ h2 {
 }
 #green{
     flex-basis: 700px;
+    flex-shrink: 2;
+}
+#yellow{
+  flex-shrink: 4;
 }
