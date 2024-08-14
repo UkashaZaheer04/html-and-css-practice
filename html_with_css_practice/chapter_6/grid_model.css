@@ -1,15 +1,19 @@
-#container{
-    background-color: black;
-    height: 400px;
-    width: 400px;
-     display:grid ;
-     grid-template-columns: 100px 100px 50px ;
-   grid-template-rows: repeat(4,1fr);
-   grid-gap: 60px;
-    }
-.item{
-    background-color: seagreen;
-     height: 50px;
-     width: 100px;
-    border:2px solid black ;
+#container {
+  background-color: black;
+  height: 400px;
+  width: 400px;
+  display: grid;
+  /* grid-template-columns: repeat(5, 1fr);  */
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 60px;
+}
+.item {
+  background-color: seagreen;
+  width: 100px;
+  border: 2px solid black;
+}
+.one {
+  /* grid-row-start: 1;
+    grid-row-end:3 ; */
+  grid-row: 1/3;
 }
