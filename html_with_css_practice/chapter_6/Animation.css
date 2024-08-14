@@ -11,19 +11,36 @@ div {
      animation-delay: 1s;
      animation-iteration-count: infinite;
   */
-  animation: fontchange 2s ease-in 1s infinite;
+  animation: fontchange 1s ease-in 0s infinite;
 }
-@keyframes fontchange {
+/* @keyframes fontchange {
   from {
     font-size: 10px;
     background-color: palevioletred;
     color: blue;
     border: 2px solid blue;
-  }
+    
+
+    }
+  
   to {
     font-size: 20px;
     background-color: blue;
     border: 2px solid palevioletred;
     color: palevioletred;
+  }  
+}*/
+@keyframes fontchange {
+  0% {
+    font-size: 10px;
+    background-color: palevioletred;
+  }
+  50% {
+    font-size: 15px;
+    background-color: plum;
+  }
+  100% {
+    font-size: 20px;
+    background-color: aqua;
   }
 }
