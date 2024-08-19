@@ -1,0 +1,160 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: border-box;
+  font-family: "Sedan", serif;
+}
+.hero {
+  background-image: url(pexels-goumbik-574080.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-text {
+  font-size: 80px;
+  font-style: normal;
+  margin-left: 80px;
+  padding-top: 400px;
+  font-weight: bolder;
+  animation: fontchange 3s linear 1s infinite running;
+}
+span {
+  font-size: 80px;
+  font-weight: bolder;
+}
+@keyframes fontchange {
+  from {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: bolder;
+  }
+  to {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: bolder;
+    color: antiquewhite;
+  }
+}
+.hero-line {
+  background-color: antiquewhite;
+  height: 250px;
+}
+.text {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 60px;
+}
+.one {
+  font-size: 115px;
+}
+.skills {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  height: 1300px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.skill1,
+.skill2,
+.skill3 {
+  width: 28%;
+  border: 2px solid antiquewhite;
+  box-shadow: 1px 1px 6px black;
+  height: 1000px;
+  margin: 0 20px;
+}
+
+img {
+  height: 450px;
+  width: 100%;
+}
+
+.disc h3 {
+  font-size: 60px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.disc pre {
+  padding-top: 30px;
+  font-size: 45px;
+  padding-left: 10px;
+}
+.bottom_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact,
+.about {
+  min-height: 600px;
+  color: white;
+
+  box-sizing: border-box;
+  margin: 0; /* Remove space between divs */
+}
+
+.contact {
+  background-color: #515603;
+}
+
+.about {
+  background-color: #722300;
+}
+
+.about h2,
+.contact h2 {
+  font-size: 90px;
+  text-align: center;
+  font-weight: bolder;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.about p,
+.contact p {
+  padding-top: 25px;
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000;
+  height: 100px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media (max-width: 786px) {
+  .bottom_section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact,
+  .about {
+    margin-bottom: 20px;
+  }
+
+  .about h2,
+  .contact h2 {
+    font-size: 32px;
+  }
+
+  .about p,
+  .contact p {
+    font-size: 20px;
+  }
+}
