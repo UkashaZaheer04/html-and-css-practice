@@ -1,0 +1,11 @@
+h3{
+    animation: changecolor 3s linear 0s infinite running;
+}
+@keyframes changecolor{
+    from{
+        color: black;
+    }
+    to{
+        color: chocolate;
+    }
+}
