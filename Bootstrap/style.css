@@ -12,3 +12,9 @@ h3{
 .btn-danger1  {
     background-color:lightgreen ;
 }
+.alert-color{
+   height: 30px;
+}
+.alert-icon{
+    height:20px;
+}
