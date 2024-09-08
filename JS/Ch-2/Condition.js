@@ -63,31 +63,73 @@ else {
     console.log("Invalid size");
 }
 //&&
-let num=70;
+let num = 70;
 if (num > 50 && num >= 80) {
- console.log("Pass");
- console.log("A+")
+    console.log("Pass");
+    console.log("A+")
 }
 //Or ||
-if(num>50 || num>=70)
-{
+if (num > 50 || num >= 70) {
     console.log("Pass")
     console.log("A")
 }
 //Practice
-let str="sapple";
-if (str.length>3 && str[0]=="a"){
+let str = "sapple";
+if (str.length > 3 && str[0] == "a") {
     console.log(" Its a good string ");
-}else {
+} else {
     console.log("Its a bad string");
 }
-let num1=12;
-if ((num1==12)&&((num1 -1==11)||(num1+1==15))){
-   console.log("Correct ")
-}else{
+let num1 = 12;
+if ((num1 == 12) && ((num1 - 1 == 11) || (num1 + 1 == 15))) {
+    console.log("Correct ")
+} else {
     console.log("Incorrect")
 }
+//switch
+let rang = "red";
+switch (rang) {
+    case "red":
+        console.log("Stop");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    case "yellow":
+        console.log("Slow");
+        break;
+    default:
+        console.log("Invalid color");
 
+}
+//Practice
+let dayNum = 5;
+switch (dayNum) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid day");
+
+}
 
 
 
