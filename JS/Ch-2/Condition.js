@@ -62,7 +62,31 @@ else if (popcornSize == "S") {
 else {
     console.log("Invalid size");
 }
-
+//&&
+let num=70;
+if (num > 50 && num >= 80) {
+ console.log("Pass");
+ console.log("A+")
+}
+//Or ||
+if(num>50 || num>=70)
+{
+    console.log("Pass")
+    console.log("A")
+}
+//Practice
+let str="sapple";
+if (str.length>3 && str[0]=="a"){
+    console.log(" Its a good string ");
+}else {
+    console.log("Its a bad string");
+}
+let num1=12;
+if ((num1==12)&&((num1 -1==11)||(num1+1==15))){
+   console.log("Correct ")
+}else{
+    console.log("Incorrect")
+}
 
 
 
