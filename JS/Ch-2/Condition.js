@@ -29,3 +29,32 @@ if(color=="green")
 {
     console.log("GO");
 }
+//else if 
+let age=16;
+if(age==18)
+{
+    console.log("You are an accurate");
+}else if( age<18)
+{
+    console.log("You are a minor");
+}
+else if(age>18)
+{
+    console.log("You are an adult");
+}
+let marks=80;
+if(marks>=80)
+{
+    console.log("Your grade is A+");
+    }else if(marks>=60 && marks<80){
+        console.log("Your grade is B+");
+    }
+    else if (marks<50)
+    {
+        console.log("Your grade is F");
+    }
+
+
+    
+
+
