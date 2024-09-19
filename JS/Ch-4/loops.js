@@ -23,11 +23,28 @@ for(let i=0;i<=15;i++)
         console.log(i);
     }
     //input 
-     let n = prompt("Enter number ");
-    n = parseInt(n);
-for (let i=n;i<=n*10;i=i+n)
+    /*  let n = prompt("Enter number ");
+    n = parseInt(n); */
+/* for (let i=n;i<=n*10;i=i+n)
 {
    console.log(i);
 
-} 
- 
+}  */
+ //nested loops with array 
+ let arr = [[1,2,3],[4,5,6]];
+for (let i=0;i<arr.length;i++)
+{
+    // console.log(arr[i],arr[i].length);
+    for (let j=0;j<arr[i].length;j++)
+    {
+        console.log(arr[i][j]);
+    }
+}
+let hero=[11,22,33,44]
+{
+    for(hero of hero){
+        console.log(hero)
+    }
+
+    
+}
